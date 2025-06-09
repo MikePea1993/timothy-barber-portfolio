@@ -1,54 +1,98 @@
-# React + TypeScript + Vite
+# Timothy David - Barber Portfolio 💈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website for Timothy David, an award-winning barber with 19 years of experience in Newport, Wales.
 
-Currently, two official plugins are available:
+![Portfolio Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![React](https://img.shields.io/badge/React-v18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-v5-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-v3-06B6D4)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Responsive Design** - Perfect on all devices
+- **Animated Review Cards** - Sliding card stack with customer testimonials
+- **Interactive Elements** - Smooth hover effects and transitions
+- **Modern UI/UX** - Clean black & white theme with professional styling
+- **Performance Optimized** - Fast loading and smooth animations
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<div align="center">
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Lucide Icons](https://img.shields.io/badge/Lucide-Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+</div>
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🚀 Quick Start
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/timothy-barber-portfolio.git
+   cd timothy-barber-portfolio
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 📱 Preview
+
+<div align="center">
+
+### Desktop
+
+![Desktop Preview](https://via.placeholder.com/800x400/000000/FFFFFF?text=Desktop+Preview)
+
+### Mobile
+
+![Mobile Preview](https://via.placeholder.com/400x600/000000/FFFFFF?text=Mobile+Preview)
+
+</div>
+
+## 🌟 Key Components
+
+- **Hero Section** - Full-screen introduction with animated cards
+- **Review System** - Automatic sliding testimonial cards
+- **Responsive Design** - Mobile-first approach
+- **Performance** - Optimized animations and loading
+
+## 🎨 Design Features
+
+- **Modern Black & White Theme**
+- **Smooth Card Animations**
+- **Interactive Mouse Effects**
+- **Mobile-Optimized Layout**
+- **Professional Typography**
+
+## 📞 Contact
+
+**Timothy David**  
+📍 Newport, Wales, UK  
+⭐ 4.9/5 Rating | 127+ Reviews  
+💈 19 Years Experience
+
+---
+
+<div align="center">
+
+**Built for Timothy's Barber Shop**
+
+![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat&logo=react)
+![Styled with Tailwind](https://img.shields.io/badge/Styled%20with-Tailwind-38B2AC?style=flat&logo=tailwind-css)
+
+</div>
