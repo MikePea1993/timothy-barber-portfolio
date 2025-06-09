@@ -24,32 +24,6 @@ A modern, responsive portfolio website for Timothy David, an award-winning barbe
 
 </div>
 
-## 🚀 Quick Start
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/timothy-barber-portfolio.git
-   cd timothy-barber-portfolio
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
-
 ## 📱 Preview
 
 <div align="center">
