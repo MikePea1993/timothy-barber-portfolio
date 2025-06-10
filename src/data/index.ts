@@ -30,14 +30,14 @@ export const businessInfo: BusinessInfo = {
   title: "Master Barber",
   description:
     "Crafting excellence for nineteen years. Timothy David has been dedicated to the barber industry, staying up to date with modern looks while honoring traditional barbering techniques.",
-  rating: 4.9,
-  reviewCount: 127,
+  rating: 5.0,
+  reviewCount: 276,
   experience: 19,
-  startingPrice: "£25",
+  startingPrice: "£12",
   contact: {
     address: "Newport, Wales, UK",
     phone: "+44 1234 567890",
-    email: "timothy@davidbarber.co.uk",
+    email: "timothy@davidbarber.co.uk (placeholder)",
   },
 };
 
@@ -63,7 +63,7 @@ export const reviews: Review[] = [
   {
     id: 3,
     name: "Ben Parker",
-    rating: 4.8,
+    rating: 5.0,
     comment: "Always a 5 star service from Tim. Wouldn't go anywhere else!",
     service: "Hair Cut",
     date: "2024-01-10",
@@ -80,7 +80,7 @@ export const reviews: Review[] = [
   {
     id: 5,
     name: "David Thompson",
-    rating: 4.9,
+    rating: 5.0,
     comment: "19 years of experience really shows. Fantastic work every time.",
     service: "Classic Cut",
     date: "2024-01-05",

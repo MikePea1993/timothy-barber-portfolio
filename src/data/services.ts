@@ -84,20 +84,6 @@ export const services: Service[] = [
       "Post-shave balm",
     ],
   },
-  {
-    id: 6,
-    name: "Father & Son",
-    description:
-      "Special bonding experience for fathers and sons. Creating memories while looking sharp.",
-    price: "£45",
-    duration: "60 mins",
-    includes: [
-      "Two classic cuts",
-      "Family styling consultation",
-      "Hot towel finish for both",
-      "Complimentary styling products",
-    ],
-  },
 ];
 
 export const serviceExtras = {
