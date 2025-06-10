@@ -1,10 +1,9 @@
-// src/components/sections/Hero/Hero.tsx
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Star, MapPin, Scissors, Phone, Calendar, Award } from "lucide-react";
 import { businessInfo, reviews } from "../../../data";
 import { useMousePosition } from "../../../hooks/useMousePosition";
 
-const Hero: React.FC = () => {
+const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -14,25 +13,20 @@ const Hero: React.FC = () => {
     setIsVisible(true);
   }, []);
 
-  // Auto-rotate reviews with flip animation
+  // Auto-rotate reviews
   useEffect(() => {
     if (!isPaused && reviews.length > 1) {
       const interval = setInterval(() => {
         setCurrentReviewIndex((prev) => (prev + 1) % reviews.length);
-      }, 4000); // Change every 4 seconds
+      }, 4000); // Changes every 4 seconds
 
       return () => clearInterval(interval);
     }
   }, [isPaused]);
 
-  const getReviewForIndex = (index: number) => {
-    const adjustedIndex = (currentReviewIndex + index) % reviews.length;
-    return reviews[adjustedIndex];
-  };
-
   return (
     <section className="min-h-screen bg-black text-white relative overflow-hidden flex items-center">
-      {/* Improved Background */}
+      {/* Background */}
       <div className="absolute inset-0">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/50 via-black to-zinc-900/30" />
@@ -45,7 +39,7 @@ const Hero: React.FC = () => {
           }}
         />
 
-        {/* Clean geometric grid pattern */}
+        {/* geometric grid pattern */}
         <div className="absolute inset-0 opacity-5">
           <div
             className="absolute inset-0"
@@ -205,7 +199,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
               </div>
 
-              {/* Premium Sliding Card Stack - Clean */}
+              {/* Premium Sliding Card Stack */}
               <div
                 className="absolute bottom-4 sm:bottom-6 lg:bottom-8 left-4 sm:left-6 lg:left-8 w-[280px] sm:w-[320px] h-[140px] sm:h-[160px] z-20"
                 onMouseEnter={() => setIsPaused(true)}

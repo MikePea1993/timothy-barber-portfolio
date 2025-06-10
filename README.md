@@ -30,11 +30,11 @@ A modern, responsive portfolio website for Timothy David, an award-winning barbe
 
 ### Desktop
 
-![Desktop Preview](https://via.placeholder.com/800x400/000000/FFFFFF?text=Desktop+Preview)
+![Desktop Preview](https://i.ibb.co/Jwmgs6NH/msedge-Qz-AC4-Vg7l-I.png)
 
 ### Mobile
 
-![Mobile Preview](https://via.placeholder.com/400x600/000000/FFFFFF?text=Mobile+Preview)
+![Mobile Preview](https://i.ibb.co/s9HWm0VN/msedge-f-M1-HD5tw-Uw.png)
 
 </div>
 
